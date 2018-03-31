@@ -22,6 +22,8 @@ public class Returning extends Rental {
                     super.getFilm() + " " + super.getDays() + " extra " +
                             getCorrectForm("day", super.getDays()) + " " +
                             Prices.getReturnPrice(super.getFilm().getFilmType(), super.getDays()) + " EUR");
+        } else {
+            System.out.println(super.getFilm());
         }
     }
 }
