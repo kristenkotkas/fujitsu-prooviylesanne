@@ -1,4 +1,6 @@
-package Renting;
+package Data;
+
+import Utils.FilmType;
 
 public class Film {
     private String filmTitle;

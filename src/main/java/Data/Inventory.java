@@ -1,4 +1,6 @@
-package Renting;
+package Data;
+
+import Utils.FilmType;
 
 import java.util.ArrayList;
 import java.util.Arrays;

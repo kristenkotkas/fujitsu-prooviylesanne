@@ -1,4 +1,4 @@
-package Renting;
+package Utils;
 
 public enum FilmType {
     NEW_RELEASE("New release"),

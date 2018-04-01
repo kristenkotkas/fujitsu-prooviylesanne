@@ -1,5 +1,8 @@
 package Renting;
 
+import Data.Film;
+import Utils.Prices;
+
 public class Rental {
     private Film film;
     private int days;

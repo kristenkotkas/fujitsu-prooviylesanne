@@ -1,5 +1,7 @@
 package Renting;
 
+import Data.Film;
+
 public class Renting extends Rental {
     private boolean paidWithBonus;
 

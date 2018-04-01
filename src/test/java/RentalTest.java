@@ -1,5 +1,8 @@
+import Data.Customer;
+import Data.Film;
+import Data.Inventory;
 import Exceptions.*;
-import Renting.*;
+import Utils.FilmType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

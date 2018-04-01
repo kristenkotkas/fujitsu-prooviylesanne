@@ -1,6 +1,10 @@
-package Renting;
+package Data;
 
-import Exceptions.*;
+import Exceptions.FilmException;
+import Exceptions.RentingException;
+import Exceptions.ReturningException;
+import Renting.*;
+import Utils.FilmType;
 
 import java.util.ArrayList;
 import java.util.List;

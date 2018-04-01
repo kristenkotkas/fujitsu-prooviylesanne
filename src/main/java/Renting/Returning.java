@@ -1,5 +1,8 @@
 package Renting;
 
+import Data.Film;
+import Utils.Prices;
+
 public class Returning extends Rental {
     public Returning(Film film, int extraDays) {
         super(film, extraDays);

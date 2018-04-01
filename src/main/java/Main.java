@@ -1,4 +1,7 @@
-import Renting.*;
+import Data.Customer;
+import Data.Film;
+import Data.Inventory;
+import Utils.FilmType;
 
 public class Main {
     private static Inventory inventory = new Inventory();
