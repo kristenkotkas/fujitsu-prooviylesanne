@@ -1,33 +1,11 @@
-import Exceptions.FilmException;
-import Exceptions.RentingException;
-import Renting.Customer;
-import Renting.Film;
-import Renting.FilmType;
-import Renting.Inventory;
+import Exceptions.*;
+import Renting.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class RentalTest {
-    /**
-     * What too test
-     * X Filmi loomine
-     * X Filmi lisamine inventorysse
-     * X Saab rentida vaid filmi, mis pole renditud
-     * X Filmi eest on õige summa
-     * X Total on õige
-     * X Ilma rentimata tuleb tsekil erind
-     * X Boonuse õige arvestamine
-     * X Boonusega rentimine
-     * X Kui pole piisavalt, tuleb erind
-     * X Saab returnida
-     * X Returnil õige summa, kui ületab
-     * X Returnil õige total
-     * X Remove film
-     * X Change film type
-     * X Saab boonusega rentida vaid uut filmi
-     */
     private Inventory inventory;
 
     private Customer customer;
@@ -73,11 +51,6 @@ public class RentalTest {
                 () -> assertTrue(inventory.getAllFilms().contains(spiderMan2)),
                 () -> assertTrue(inventory.getAllFilms().contains(outOfAfrica))
         );
-    }
-
-    @Test
-    void rentMoviesOnlyInInventory() {
-        //avatar.rent();
     }
 
     @Test
