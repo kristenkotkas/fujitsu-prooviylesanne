@@ -93,12 +93,6 @@ public class RentalTest {
     }
 
     @Test
-    void testNoReceiptIfNoRentings() {
-        //customer = new Customer();
-        //customer.printReceipt();
-    }
-
-    @Test
     void testCorrectBonusWhenRenting() {
         customer.rentFilm(avatar, 5); // 1 point
         customer.rentFilm(matrix11, 2); // 2 points

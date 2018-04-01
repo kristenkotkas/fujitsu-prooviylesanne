@@ -2,11 +2,11 @@ package Renting;
 
 import Exceptions.FilmException;
 
-public class Prices {
+class Prices {
     private static int PREMIUM_PRICE = 4;
     private static int BASIC_PRICE = 3;
 
-    public static int getPrice(FilmType type, int numOfDays) {
+    static int getPrice(FilmType type, int numOfDays) {
         switch (type) {
             case NEW_RELEASE:
                 return PREMIUM_PRICE * numOfDays;
@@ -19,7 +19,7 @@ public class Prices {
         }
     }
 
-    public static int getReturnPrice(FilmType type, int extraDays) {
+    static int getReturnPrice(FilmType type, int extraDays) {
         switch (type) {
             case NEW_RELEASE:
                 return PREMIUM_PRICE * extraDays;

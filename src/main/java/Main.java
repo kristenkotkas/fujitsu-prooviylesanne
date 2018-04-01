@@ -62,6 +62,5 @@ public class Main {
         // get available films
         System.out.println("\nAvailable films in inventory:");
         inventory.getAvailableFilms().forEach(System.out::println);
-
     }
 }
